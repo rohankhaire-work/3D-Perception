@@ -1,4 +1,4 @@
-#include "cropbox_filter.hpp"
+#include "cuda/cropbox_filter.hpp"
 #include <iostream>
 
 int main(int argc, char *argv[])

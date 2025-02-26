@@ -1,5 +1,5 @@
-#include "cropbox_filter.hpp"
-#include "cropbox_kernel.hpp"
+#include "cuda/cropbox_filter.hpp"
+#include "cuda/cropbox_kernel.hpp"
 
 __global__ void cropbox_filter_kernel(cuda::std::span<float> input_points,
                                       cuda::std::span<float> filtered_points,
